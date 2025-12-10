@@ -6,11 +6,11 @@
      (4, "Compared different categories of performance using different evaluation metrics. Supported each evalutaion metric by plotting performance differences for each metric."),
      (3, "Explained what parts of the datasets were used in prior works. Included a list of prior works in research but did not explain what parts were used.")],
   "submission_374508158": 
-    [(score_out_of_five_for_Q1, "1-2 sentence friendly explanation of score"),
-     (score_out_of_five_for_Q2, "1-2 sentence friendly explanation of score"),
-     (score_out_of_five_for_Q3, "1-2 sentence friendly explanation of score"),
-     (score_out_of_five_for_Q4, "1-2 sentence friendly explanation of score"),
-     (score_out_of_five_for_Q5, "1-2 sentence friendly explanation of score")],
+    [(4, "Defined the goal of the predictive task. Included the baselines and evlaution metrics that will be used."),
+     (4, "EDA successfully identifies relationships in the data that were used. Used as logical explanation justifying how specific data processing could be useful."),
+     (4, "Provided strong comparions with advantages/disadvantages to each model used. Connected the meaning of each result back to the model being used, proves what made the model effective."),
+     (4, "Explained that each metric captures a different rating of performance. Good reasoning about why the best model worked out because it consistently genearted better scores for all metrics."),
+     (4, "Discussed the origins of the data used and what it has been used for. Compared results that matches the expected performance in other literatures.")],
   "submission_374663335": 
     [(score_out_of_five_for_Q1, "1-2 sentence friendly explanation of score"),
      (score_out_of_five_for_Q2, "1-2 sentence friendly explanation of score"),
@@ -23,5 +23,5 @@
      (score_out_of_five_for_Q3, "1-2 sentence friendly explanation of score"),
      (score_out_of_five_for_Q4, "1-2 sentence friendly explanation of score"),
      (score_out_of_five_for_Q5, "1-2 sentence friendly explanation of score")],
-  "ranking": [list of the above submission IDs ordered from MOST EXCELLENT to LEAST EXCELLENT]
+  "ranking": [374660720]
 }
