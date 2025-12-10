@@ -1,10 +1,10 @@
 {
   "submission_374660720": 
-    [(5, "The presentation clearly states the predictive task with relevant metrics and applicable baselines."),
-     (score_out_of_five_for_Q2, "1-2 sentence friendly explanation of score"),
-     (score_out_of_five_for_Q3, "1-2 sentence friendly explanation of score"),
-     (score_out_of_five_for_Q4, "1-2 sentence friendly explanation of score"),
-     (score_out_of_five_for_Q5, "1-2 sentence friendly explanation of score")],
+    [(4, "The presentation clearly states the predictive task with relevant metrics and applicable baselines."),
+     (5, "Thoroughly explained the source of datasets, contents of the original and processed datasets, and the procedures to processing the datasets. Code walkthrough included various meaningful plots that contributed to revealing some sort key information."),
+     (4, "Compared baseline and advanced models, explaining the different approaches to each model. Explains the logic of each model and why those models were chosen."),
+     (4, "Compared different categories of performance using different evaluation metrics. Supported each evalutaion metric by plotting performance differences for each metric."),
+     (3, "Explained what parts of the datasets were used in prior works. Included a list of prior works in research but did not explain what parts were used.")],
   "submission_374508158": 
     [(score_out_of_five_for_Q1, "1-2 sentence friendly explanation of score"),
      (score_out_of_five_for_Q2, "1-2 sentence friendly explanation of score"),
