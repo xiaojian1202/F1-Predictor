@@ -1,0 +1,35 @@
+name: Build and Push to Docker Hub
+
+# 1. Trigger the workflow
+on:
+  push:
+    branches:
+      - main # Runs every time you push to the main branch
+    paths-ignore:
+      - 'README.md'
+      - 'main.ipynb' # We don't need to rebuild the API if you just tweak the notebook
+
+# 2. Define the exact steps the GitHub server will take
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest # GitHub gives us a fresh Linux server
+
+    steps:
+      # Step A: Download your code onto the server
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Step B: Log into Docker Hub using the Repo's secrets 
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      # Step C: Build the Docker image and push it to the registry
+      - name: Build and Push Docker Image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: ${{ secrets.DOCKER_USERNAME }}/f1-predictor:latest
